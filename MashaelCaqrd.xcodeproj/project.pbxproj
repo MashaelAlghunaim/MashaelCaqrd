@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62525F66290D53B2003F2883 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62525F65290D53B2003F2883 /* InfoView.swift */; };
 		62F5B086290C1B6A00AEA59D /* MashaelCaqrdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5B085290C1B6A00AEA59D /* MashaelCaqrdApp.swift */; };
 		62F5B088290C1B6A00AEA59D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5B087290C1B6A00AEA59D /* ContentView.swift */; };
 		62F5B08A290C1B6B00AEA59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F5B089290C1B6B00AEA59D /* Assets.xcassets */; };
 		62F5B08D290C1B6B00AEA59D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F5B08C290C1B6B00AEA59D /* Preview Assets.xcassets */; };
+		62F5B099290C209100AEA59D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F5B098290C209100AEA59D /* LaunchScreen.storyboard */; };
+		62F5B09D290C221200AEA59D /* Pacifico in Resources */ = {isa = PBXBuildFile; fileRef = 62F5B09C290C221200AEA59D /* Pacifico */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62525F64290C27F3003F2883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		62525F65290D53B2003F2883 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		62F5B082290C1B6A00AEA59D /* MashaelCaqrd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MashaelCaqrd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F5B085290C1B6A00AEA59D /* MashaelCaqrdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashaelCaqrdApp.swift; sourceTree = "<group>"; };
 		62F5B087290C1B6A00AEA59D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62F5B089290C1B6B00AEA59D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62F5B08C290C1B6B00AEA59D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62F5B098290C209100AEA59D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62F5B09C290C221200AEA59D /* Pacifico */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pacifico; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,8 @@
 		62F5B079290C1B6A00AEA59D = {
 			isa = PBXGroup;
 			children = (
+				62F5B098290C209100AEA59D /* LaunchScreen.storyboard */,
+				62525F65290D53B2003F2883 /* InfoView.swift */,
 				62F5B084290C1B6A00AEA59D /* MashaelCaqrd */,
 				62F5B083290C1B6A00AEA59D /* Products */,
 			);
@@ -51,9 +60,12 @@
 		62F5B084290C1B6A00AEA59D /* MashaelCaqrd */ = {
 			isa = PBXGroup;
 			children = (
+				62525F64290C27F3003F2883 /* Info.plist */,
 				62F5B085290C1B6A00AEA59D /* MashaelCaqrdApp.swift */,
 				62F5B087290C1B6A00AEA59D /* ContentView.swift */,
+				62F5B09C290C221200AEA59D /* Pacifico */,
 				62F5B089290C1B6B00AEA59D /* Assets.xcassets */,
+				62F5B093290C200200AEA59D /* fonts */,
 				62F5B08B290C1B6B00AEA59D /* Preview Content */,
 			);
 			path = MashaelCaqrd;
@@ -65,6 +77,13 @@
 				62F5B08C290C1B6B00AEA59D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62F5B093290C200200AEA59D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +144,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F5B099290C209100AEA59D /* LaunchScreen.storyboard in Resources */,
 				62F5B08D290C1B6B00AEA59D /* Preview Assets.xcassets in Resources */,
+				62F5B09D290C221200AEA59D /* Pacifico in Resources */,
 				62F5B08A290C1B6B00AEA59D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62F5B088290C1B6A00AEA59D /* ContentView.swift in Sources */,
+				62525F66290D53B2003F2883 /* InfoView.swift in Sources */,
 				62F5B086290C1B6A00AEA59D /* MashaelCaqrdApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +292,7 @@
 				DEVELOPMENT_TEAM = TSQFGQSG85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MashaelCaqrd/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +322,7 @@
 				DEVELOPMENT_TEAM = TSQFGQSG85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MashaelCaqrd/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
